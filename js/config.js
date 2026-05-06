@@ -44,17 +44,9 @@ const API_SITES = {
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
     },
-    youzhi: {
-        api: 'http://api.1080zyku.com/inc/api.php/provide/vod',
-        name: '优质资源库',
-    },
-    redmer: {
-        api: 'http://hongniuzy2.com/api.php/provide/vod',
-        name: '红牛資源',
-    },
-    haiwaikan: {
-        api: 'http://haiwaikan.com/api.php/provide/vod',
-        name: '海外看资源',
+    lzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '量子资源站'
     },
     xiaomaomi: {
         api: 'https://zy.xmm.hk/api.php/provide/vod',
@@ -121,10 +113,6 @@ const API_SITES = {
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
-    },
-    lzi: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
-        name: '量子资源站'
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
