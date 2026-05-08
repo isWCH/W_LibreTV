@@ -22,10 +22,9 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-        dyttzy: {
-        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
-        name: '电影天堂资源',
-        detail: 'http://caiji.dyttzyapi.com', 
+    lzi: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/',
+        name: '量子资源站'
     },
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
@@ -44,9 +43,14 @@ const API_SITES = {
         name: '非凡影视',
         detail: 'http://ffzy5.tv', 
     },
-    lzi: {
-        api: 'https://cj.lziapi.com/api.php/provide/vod/',
-        name: '量子资源站'
+    dyttzy: {
+        api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
+        name: '电影天堂资源',
+        detail: 'http://caiji.dyttzyapi.com', 
+    },
+    baidu: {
+        api: 'https://api.apibdzy.com/api.php/provide/vod',
+        name: '百度云资源'
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
@@ -97,10 +101,6 @@ const API_SITES = {
     yinghua: {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
         name: '樱花资源'
-    },
-    baidu: {
-        api: 'https://api.apibdzy.com/api.php/provide/vod',
-        name: '百度云资源'
     },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
